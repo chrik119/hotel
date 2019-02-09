@@ -8,9 +8,11 @@
     </head>
     <body>
         <div class="jumbotron">
-            <div id="jumboFade" class="p-3">
-                <h1 class="display-4">Welcome to RoomBooker!</h1>
-                <p class="lead d-none d-md-block">Please fill out when you'd like to stay with us, how many people and where you'd like to stay.</p>
+            <div id="jumboFade">
+                <div class="container">
+                    <h1 class="display-4">Welcome to RoomBooker!</h1>
+                    <p class="lead d-none d-md-block">Please fill out when you'd like to stay with us, how many people and where you'd like to stay.</p>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -21,51 +23,31 @@
                             <div class="row">
                                 <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
                                     <label for="checkin">Check In</label>
-                                    <div class="field-icon-wrap">
-                                        <div class="icon">
-                                            <span class="icon-calendar"></span>
-                                        </div>
-                                        <input type="date" id="checkin_date" class="form-control">
-                                    </div>
+                                    <input type="date" id="checkin_date" class="form-control">
                                 </div>
                                 <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
                                     <label for="checkin">Check Out</label>
-                                    <div class="field-icon-wrap">
-                                        <div class="icon">
-                                            <span class="icon-calendar"></span>
-                                        </div>
-                                        <input type="date" id="checkout_date" class="form-control">
-                                    </div>
+                                    <input type="date" id="checkout_date" class="form-control">
                                 </div>
                                 <div class="col-md-6 mb-3 mb-md-0 col-lg-3">
                                     <div class="row">
-                                        <div class="col-md-6 mb-3 mb-md-0">
+                                        <div class="col-md-4 mb-3 mb-md-0">
                                             <label for="checkin">Adults</label>
-                                            <div class="field-icon-wrap">
-                                                <div class="icon">
-                                                    <span class="ion-ios-arrow-down"></span>
-                                                </div>
-                                                <select name="" id="" class="form-control">
-                                                    <option value="">1</option>
-                                                    <option value="">2</option>
-                                                    <option value="">3</option>
-                                                    <option value="">4+</option>
-                                                </select>
-                                            </div>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4+</option>
+                                            </select>
                                         </div>
-                                        <div class="col-md-6 mb-3 mb-md-0">
+                                        <div class="col-md-8 mb-3 mb-md-0">
                                             <label for="checkin">Location</label>
-                                            <div class="field-icon-wrap">
-                                                <div class="icon">
-                                                    <span class="ion-ios-arrow-down"></span>
-                                                </div>
-                                                <select name="" id="" class="form-control">
-                                                    <option value="">Station 1</option>
-                                                    <option value="">Station 2</option>
-                                                    <option value="">Convention Center</option>
-                                                    <option value="">Central Park</option>
-                                                </select>
-                                            </div>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Station 1</option>
+                                                <option value="">Station 2</option>
+                                                <option value="">Convention Center</option>
+                                                <option value="">Central Park</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +59,41 @@
                     </div>
                 </div>
             </div>
+            <div id="footer">
+                <div class="row my-5">
+                    <div class="col-6">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo tempora, repellat sit repellendus totam, reiciendis provident quasi ab cumque qui exercitationem neque voluptate quod quis, ipsa quae corporis! Incidunt.
+                        </p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi minima debitis rem, quae et asperiores obcaecati consequuntur molestiae possimus ab, quia placeat corrupti. Eos doloremque ut temporibus impedit ratione nemo!</p>
+                    </div>
+                    <div class="col-6">
+                        <h2>Contact Info</h2>
+                        <div class="row mb-4">
+                            <div class="col-2"><i class="far fa-compass"></i></div>
+                            <div class="col-10"><span>2281 Cambridge Court, Clarksville, Arkansas, USA</span></div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-2"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="col-10"><span>(123) 456 - 7890</span></div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-2"><i class="far fa-envelope"></i></div>
+                            <div class="col-10"><span>hotel.booking@email.com</span></div>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-2"><i class="far fa-clock"></i></div>
+                            <div class="col-10"><span>Open 24 hour, 7 days a week</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        
             
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

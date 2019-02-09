@@ -1,3 +1,7 @@
+h2{
+    margin-bottom: 2rem;
+}
+
 .inputInfo {
     margin-top: -100px;
     z-index: 1;
@@ -14,9 +18,10 @@
     background-position: center; 
     margin-bottom: 0;
     z-index: 0;
-    padding: 15rem 2rem;
+    padding: 0;
 }
 
 #jumboFade {
+    padding: 15rem 0rem;
     background:rgba(255,255,255,0.5);
 }
